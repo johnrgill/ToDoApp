@@ -14,7 +14,7 @@ class App extends Component{
   }
   //use axios to grab a json of todos
   componentDidMount() {
-    axios.get('https://jsonplaceholder.typicode.com/todos')
+    axios.get('https://jsonplaceholder.typicode.com/todos?_limit=10')
       .then(res => this.setState( { todos: res.data }))
   }
   // toggle delete
