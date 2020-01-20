@@ -48,7 +48,6 @@ class App extends Component{
     return (
       <Router>
         <div className="App">
-        <p>hit Home to begin</p>
           <Header />
           <Route path="/" render={props => (
             <React.Fragment>
