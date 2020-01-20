@@ -4,7 +4,6 @@ function Header() {
     return (
         <header style={headerStyle}>
             <h1>To-do List</h1>
-            <p>hit Home to begin</p>
             <Link style={linkStyle} to="/toDoApp">Home</Link> | <Link style={linkStyle} to="/toDoApp/about">About</Link>
         </header>
     );
