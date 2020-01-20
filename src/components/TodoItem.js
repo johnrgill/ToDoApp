@@ -30,7 +30,6 @@ const btnStyle = {
     color: '#fff',
     border: 'none',
     padding: '5px 9px',
-    borderRadius: '50%',
     cursor: 'pointer',
     float: 'right'
 }
